@@ -1,0 +1,24 @@
+Create "templates" and "static" folder in the directory where manage.py is present 
+
+templates => html files
+static => CSS and JavaScript Files
+
+=====  Render  =====
+
+=> html page ko bhejna
+
+In simple terms, render in Django is a way to combine a webpage template (HTML) with some data, then send that complete webpage to the user's browser.
+
+Imagine you have a blank page (template), and you want to add some information (data) to it, like a person's name. The render() function takes care of adding the name to the blank page and gives back a finished webpage for the user to see.
+---------------------------------------
+
+=== Impost Render ===
+
+from django.shortcuts import render
+
+=== Template ENgine ===
+
+{% load static %} => before doctype in html
+
+{% keywords %} => mostly 
+

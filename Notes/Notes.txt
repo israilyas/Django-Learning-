@@ -1,0 +1,23 @@
+==== Vertual Environment COmmands ====
+
+Window:
+py -m venv .venv
+
+Activate Virtual Environment
+.venv\Scripts\activate
+
+For Deactivate
+deactivate
+
+=> folder => .venv
+
+===== UV =======
+Extremely fast package manager written in Rust
+
+==== Install UV =====
+
+pip install uv
+
+=== Create Virtual environment ===
+
+uv venv # create virtual environment at .venv
