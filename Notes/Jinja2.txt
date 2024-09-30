@@ -1,0 +1,3 @@
+ ======== DTS or Jinja2 ========
+
+A Django project can be configured with one or several template engines (or even zero if you don’t use templates). Django ships built-in backends for its own template system, creatively called the Django template language (DTL), and for the popular alternative Jinja2.
